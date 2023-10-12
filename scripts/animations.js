@@ -48,6 +48,7 @@ function enable_buttons() {
       input_algo_speed.disabled = false;
       input_generate.disabled = false;
       input_algo_speed.disabled = false;
+      inputarray_size.disabled = false;
     }
   }, (c_delay += delay_time));
 }

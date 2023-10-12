@@ -18,7 +18,7 @@ header {
 #array_generate {
   border-radius: 1rem;
   color: blue;
-  padding: 1rem
+  padding: 1rem;
 }
 
 nav {
@@ -29,6 +29,7 @@ nav {
 }
 
 .nav_heading {
+  margin-top: 20px;
   font-size: xx-large;
 }
 
@@ -39,6 +40,7 @@ nav {
 }
 
 .array-parameters {
+  margin-left: 60px;
   display: flex;
   justify-content: center;
 }
@@ -133,30 +135,21 @@ section {
   text-transform: none;
 }
 
-#Info_Cont1 {
-  padding: 20% 10%;
-}
-
-#Info_Cont1 h3 {
+#Info_Container1 h3 {
+  margin-top: 20px;
   text-decoration: underline;
 }
 
 #Array_Container {
   display: flex;
   align-items: baseline;
+  margin-top: 20px;
   width: 60%;
   height: 70vh;
 }
 
-/* #Array_Container > div {
-      transition: height 0.08s ease-in-out;
-  } */
-
-#Info_Cont2 {
-  padding: 20% 10%;
-}
-
-#Info_Cont2 h3 {
+#Info_Container2 h3 {
+  margin-top: 20px;
   text-decoration: underline;
 }
 
@@ -174,4 +167,12 @@ section {
 .heading {
   display: flex;
   align-items: center;
+}
+
+.Info_Container1 {
+  margin-top: 20px;
+}
+
+.Info_Container2 {
+  margin-top: 20px;
 }

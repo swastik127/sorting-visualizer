@@ -1,6 +1,6 @@
 function Quick_sort() {
   document.getElementById("Worst_Time").innerText = "O(N^2)";
-  document.getElementById("Average_Time").innerText = "Θ(NlogN)";
+  document.getElementById("Average_Time").innerText = "O(NlogN)";
   document.getElementById("Best_Time").innerText = "Ω(NlogN)";
   document.getElementById("Worst_Space").innerText = "O(logN)";
   const startTime = performance.now();

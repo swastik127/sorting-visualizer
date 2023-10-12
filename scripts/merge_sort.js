@@ -1,7 +1,7 @@
 function Merge_sort() {
   //Setting Time complexities
   document.getElementById("Worst_Time").innerText = "O(NlogN)";
-  document.getElementById("Average_Time").innerText = "Θ(NlogN)";
+  document.getElementById("Average_Time").innerText = "O(NlogN)";
   document.getElementById("Best_Time").innerText = "Ω(NlogN)";
   document.getElementById("Worst_Space").innerText = "O(N)";
 

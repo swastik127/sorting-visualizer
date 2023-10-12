@@ -4,10 +4,6 @@ var array_size = inputarray_size.value;
 var input_generate = document.getElementById("array_generate");
 var input_algo_speed = document.getElementById("algo_speed");
 var algo_buttons = document.querySelectorAll(".algos button");
-console.log("input_generate", input_generate);
-console.log("input_algo_speed", input_algo_speed);
-console.log("algo_buttons", algo_buttons);
-console.log("inputarray_size", inputarray_size);
 var div_sizes = [];
 var divs = [];
 var margin_size;
@@ -56,6 +52,7 @@ function disable_buttons() {
     input_algo_speed.disabled = true;
     input_generate.disabled = true;
     input_algo_speed.disabled = true;
+    inputarray_size.disabled = true;
   }
 }
 function runalgo() {
@@ -65,7 +62,7 @@ function runalgo() {
     case "Bubble":
       Bubble_sort();
       break;
-    case "Optimised_Bubble":
+    case "Optimised Bubble":
       Optimised_Bubble_sort();
       break;
     case "Selection":

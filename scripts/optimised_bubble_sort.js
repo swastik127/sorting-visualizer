@@ -1,6 +1,6 @@
 function Optimised_Bubble_sort() {
   document.getElementById("Worst_Time").innerText = "O(N^2)";
-  document.getElementById("Average_Time").innerText = "Θ(N^2)";
+  document.getElementById("Average_Time").innerText = "O(N^2)";
   document.getElementById("Best_Time").innerText = "Ω(N)";
   document.getElementById("Worst_Space").innerText = "O(1)";
 
